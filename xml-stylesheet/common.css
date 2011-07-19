@@ -1,0 +1,5 @@
+/* common.css */
+
+INSTRUMENT { display: inline }
+ARTICLE, HEADLINE, AUTHOR, PARA { display: block }
+

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="common.css" type="text/css"?>
+<?xml-stylesheet href="modern.css" title="Modern" media="screen" type="text/css"?>
+<?xml-stylesheet href="classic.css" alternate="yes" title="Classic" media="screen, print" type="text/css"?>
+
+<ARTICLE>
+	<HEADLINE>testing xml with stylesheet</HEADLINE>
+	<AUTHOR>Alexander Yin</AUTHOR>
+	<PARA>
+		This is my first xml file with stylesheet
+		<INSTRUMENT>so I want to test it</INSTRUMENT> and it should be OK with everybody
+	</PARA>
+</ARTICLE>
