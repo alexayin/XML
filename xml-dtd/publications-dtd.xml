@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE publications[
+<!ELEMENT publications ( publication* )>
+<!ELEMENT publication ( paperid,title,authors,conference,location,time,status )>
+<!ELEMENT paperid ( #PCDATA )>
+<!ELEMENT title ( #PCDATA )>
+<!ELEMENT authors ( #PCDATA )>
+<!ELEMENT conference ( #PCDATA )>
+<!ELEMENT location ( #PCDATA )>
+<!ELEMENT time ( #PCDATA )>
+<!ELEMENT status ( #PCDATA )>
+]>
+
+<?xml-stylesheet href="publications.css" type="text/css"?>
+
+<publications>
+	<publication>
+		<paperid> 1 </paperid>
+		<title> RF NoC: A New Paradigm for Very Large Scale Three Dimensional On-Chip Interconnect Networks </title>
+		<authors> Alexander Wei Yin, Gangming Lv, Cheng Tao, Pasi Liljeberg, Hannu Tenhunen </authors>
+		<conference> 3D Integration Workshop in Design Automation and Test Europe Conference (DATE) </conference>
+		<location> Dresden, Germany </location>
+		<time> March, 2010 </time>
+		<status> published </status>
+	</publication>
+	<publication>
+		<paperid> 2 </paperid>
+		<title> Operating System Processor Scheduler Design for Future Chip Multiprocessor </title>
+		<authors> Thomas Canhao Xu, Alexander Wei Yin, Pasi Liljeberg, Hannu Tenhunen </authors>
+		<conference> PARS 2010 Workshop in the 23rd International Conference on Architecture of Computing Systems (ARCS 2010) </conference>
+		<location> Hannover, Germany </location>
+		<time> February, 2010</time>
+		<status> published </status>
+	</publication>
+</publications>

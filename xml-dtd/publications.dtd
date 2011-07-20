@@ -1,0 +1,9 @@
+<!ELEMENT publications ( publication* )>
+<!ELEMENT publication ( paperid,title,authors,conference,location,time,status )>
+<!ELEMENT paperid ( #PCDATA )>
+<!ELEMENT title ( #PCDATA )>
+<!ELEMENT authors ( #PCDATA )>
+<!ELEMENT conference ( #PCDATA )>
+<!ELEMENT location ( #PCDATA )>
+<!ELEMENT time ( #PCDATA )>
+<!ELEMENT status ( #PCDATA )>

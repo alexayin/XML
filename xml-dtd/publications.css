@@ -1,0 +1,11 @@
+/* publications.css */
+
+
+publications { font-family: serif; background: white; color: black }
+publication { display: block; margin-top: 2em }
+paperid { display: inline }
+title { display: inline; font-size: large; font-style: bold }
+authors { display: block; font-style: italic }
+conference { display: block }
+time { display: inline }
+status { display: inline }
