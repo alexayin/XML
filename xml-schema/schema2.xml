@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<HRInfo
+xmlns="http://users.utu.fi/yinwei"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://users.utu.fi/yinwei schema2.xsd">
+
+  <firstname>Alexander</firstname>
+  <lastname>Yin</lastname>
+  <from>China</from>
+  <age>27</age>
+  
+</HRInfo>

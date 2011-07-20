@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New document created with EditiX at Wed Jul 20 17:05:41 EEST 2011 -->
+<!-- NOTE: DTD does NOT support namespace -->
+
+
+<utuer>
+
+	<y:table xmlns:y = "http://users.utu.fi/yinwei">
+
+		<y:name> yinwei </y:name>
+
+		<y:sex> male </y:sex>
+
+	</y:table>
+	<x:table xmlns:x = "http://users.utu.fi/canxu">
+		<x:name> xucanhao </x:name>
+		<x:sex> male	</x:sex>
+	</x:table>
+</utuer>
