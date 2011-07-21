@@ -9,7 +9,9 @@ xmlns="http://users.utu.fi/yinwei/church"
 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 
-xsi:schemaLocation="http://users.utu.fi/yinwei/church church.xsd">
+xsi:schemaLocation="http://users.utu.fi/yinwei/church church.xsd"
+
+location="Itäinen papinkatu 2, Helsinki">
 
 
 	<pastor>
