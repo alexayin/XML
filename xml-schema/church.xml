@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New document created with EditiX at Thu Jul 21 17:29:33 EEST 2011 -->
+
+
+<church
+
+xmlns="http://users.utu.fi/yinwei/church"
+
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+xsi:schemaLocation="http://users.utu.fi/yinwei/church church.xsd">
+
+
+	<pastor>
+
+		<lastname>Huang</lastname>
+
+		<firstname>Paulos</firstname>
+
+		<address>Helsinki</address>
+
+	</pastor>
+
+	
+
+	<deacon>
+
+		<lastname>Xi</lastname>
+
+		<firstname>Shunrong</firstname>
+
+		<address>Espoo</address>
+
+	</deacon>
+
+	
+
+	<believer>
+
+		<lastname>Yin</lastname>
+
+		<firstname>Alexander</firstname>
+
+		<address>Nummela</address>
+
+	</believer>
+
+	
+
+	<believer>
+
+		<lastname>Yin</lastname>
+
+		<firstname>Jasmine</firstname>
+
+		<address>Nummela</address>
+
+	</believer>
+
+	
+
+	<believer>
+
+		<lastname>Yin</lastname>
+
+		<firstname>Jeremy</firstname>
+
+		<address>Nummela</address>
+
+	</believer>
+
+
+</church>

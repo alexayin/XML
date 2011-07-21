@@ -2,7 +2,8 @@
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
 targetNamespace="http://users.utu.fi/yinwei/church"
-xmlns="http://users.utu.fi/yinwei/church">
+xmlns="http://users.utu.fi/yinwei/church"
+elementFormDefault="qualified">
 
 
 <xs:annotation>
@@ -20,16 +21,13 @@ xmlns="http://users.utu.fi/yinwei/church">
 
 
 <xs:complexType name="churchType">
-
-
 	<xs:sequence>
 
 		<xs:element name="pastor" type="personInfo"/>
 
 		<xs:element name="deacon" type="personInfo"/>
 
-		<xs:element name="believer" type="personInfo"/>
-
+		<xs:element name="believer" type="personInfo" minOccurs="0" maxOccurs="unbounded"/>
 	</xs:sequence>
 
 	<xs:attribute name="location" type="xs:string"/>
