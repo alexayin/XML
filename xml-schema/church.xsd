@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://users.utu.fi/yinwei/church"
+xmlns="http://users.utu.fi/yinwei/church">
+
+
+<xs:annotation>
+
+	<xs:documentation>
+
+		This document contains the structure of Chinese church in Helsinki.
+
+	</xs:documentation>
+
+</xs:annotation>
+
+
+<xs:element name="church" type="churchType"/>
+
+
+<xs:complexType name="churchType">
+
+
+	<xs:sequence>
+
+		<xs:element name="pastor" type="personInfo"/>
+
+		<xs:element name="deacon" type="personInfo"/>
+
+		<xs:element name="believer" type="personInfo"/>
+
+	</xs:sequence>
+
+	<xs:attribute name="location" type="xs:string"/>
+
+</xs:complexType>
+
+<xs:complexType name="personInfo">
+	<xs:sequence>
+		<xs:element name="lastname" type="xs:string"/>
+		<xs:element name="firstname" type="xs:string"/>
+		<xs:element name="address" type="xs:string"/>
+	</xs:sequence>
+</xs:complexType>
+
+</xs:schema>
