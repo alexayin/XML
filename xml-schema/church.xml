@@ -4,73 +4,39 @@
 
 
 <church
-
 xmlns="http://users.utu.fi/yinwei/church"
-
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-
 xsi:schemaLocation="http://users.utu.fi/yinwei/church church.xsd"
-
 location="Itäinen papinkatu 2, Helsinki">
 
-
 	<pastor>
-
 		<lastname>Huang</lastname>
-
 		<firstname>Paulos</firstname>
-
 		<address>Helsinki</address>
-
 	</pastor>
-
 	
-
 	<deacon>
-
 		<lastname>Xi</lastname>
-
 		<firstname>Shunrong</firstname>
-
 		<address>Espoo</address>
-
 	</deacon>
 
-	
-
 	<believer>
-
 		<lastname>Yin</lastname>
-
 		<firstname>Alexander</firstname>
-
 		<address>Nummela</address>
-
 	</believer>
 
-	
-
 	<believer>
-
 		<lastname>Yin</lastname>
-
 		<firstname>Jasmine</firstname>
-
 		<address>Nummela</address>
-
 	</believer>
-
-	
 
 	<believer>
-
 		<lastname>Yin</lastname>
-
 		<firstname>Jeremy</firstname>
-
 		<address>Nummela</address>
-
 	</believer>
-
 
 </church>
