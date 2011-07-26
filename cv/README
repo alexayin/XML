@@ -1,0 +1,41 @@
+Alexander Yin's CV, structure:
+
+CV
+	Personal Information
+		First Name
+		Middle Name
+		Last Name
+		Birthday
+		Affiliation
+		Address
+		Email
+		Mobile Number
+		Skype
+
+	Current Position
+		Pos1 (UTU)
+			Title
+			Organization
+			Starting time
+		Pos2 (TUCS)
+			Title
+			Organization
+			Starting time
+		Pos4 (Eficode)
+			Title
+			Organization
+			Starting time
+
+	Educational Background
+		PhD Candidate
+		MBA Candidate
+		M.Sc Degree
+		B.Eng Degree
+
+	Working Experience
+		Microelectronics
+		Corporation Management System
+		Strategic Planning
+
+	Publication List
+		Publication 1 - ?
