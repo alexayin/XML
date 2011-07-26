@@ -13,24 +13,17 @@ CV
 		Skype
 
 	Current Position
-		Pos1 (UTU)
-			Title
-			Organization
-			Starting time
-		Pos2 (TUCS)
-			Title
-			Organization
-			Starting time
-		Pos4 (Eficode)
+		Position
 			Title
 			Organization
 			Starting time
 
 	Educational Background
-		PhD Candidate
-		MBA Candidate
-		M.Sc Degree
-		B.Eng Degree
+		Education
+			Degree
+			University
+			Start Time
+			End Time
 
 	Working Experience
 		Microelectronics

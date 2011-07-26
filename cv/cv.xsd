@@ -29,9 +29,7 @@ elementFormDefault="qualified">
 		<xs:element name="middleName" type="xs:string"/>
 		<xs:element name="lastName" type="xs:string"/>
 		<xs:element name="birthday" type="xs:date"/>
-		<xs:element name="affiliation1" type="xs:string"/>
-		<xs:element name="affiliation2" type="xs:string"/>
-		<xs:element name="affiliation3" type="xs:string"/>
+		<xs:element name="affiliation" type="xs:string" minOccurs="1" maxOccurs="5"/>
 		<xs:element name="address" type="xs:string"/>
 		<xs:element name="email" type="xs:string"/>
 		<xs:element name="mobile" type="xs:string"/>
@@ -41,22 +39,61 @@ elementFormDefault="qualified">
 
 <xs:complexType name="currPosType">
 	<xs:sequence>
+		<xs:element name="pos" type="posType" minOccurs="1" maxOccurs="5"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="posType">
+	<xs:sequence>
+		<xs:element name="title" type="xs:string"/>
+		<xs:element name="organization" type="xs:string"/>
+		<xs:element name="startTime" type="xs:date"/>
 	</xs:sequence>
 </xs:complexType>
 
 <xs:complexType name="eduBackType">
 	<xs:sequence>
+		<xs:element name="edu" type="eduType" minOccurs="1" maxOccurs="10"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="eduType">
+	<xs:sequence>
+		<xs:element name="degree" type="xs:string"/>
+		<xs:element name="university" type="xs:string"/>
+		<xs:element name="startTime" type="xs:date"/>
+		<xs:element name="endTime" type="xs:string"/>  <!-- two alternatives: exact time or still on-going -->
 	</xs:sequence>
 </xs:complexType>
 
 <xs:complexType name="workExpType">
 	<xs:sequence>
+		<xs:element name="work" type="workType" minOccurs="0" maxOccurs="unbounded"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="workType">
+	<xs:sequence>
+		<xs:element name="workName" type="xs:string"/>
+		<xs:element name="description" type="xs:string"/>
 	</xs:sequence>
 </xs:complexType>
 
 <xs:complexType name="pubListType">
 	<xs:sequence>
+		<xs:element name="publication" type="pubType" minOccurs="0" maxOccurs="unbounded"/>
 	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="pubType">
+	<xs:sequence>
+		<xs:element name="author" type="xs:string" minOccurs="1" maxOccurs="10"/>
+		<xs:element name="paperTitle" type="xs:string"/>
+		<xs:element name="bookTitle" type="xs:string"/>
+		<xs:element name="Location" type="xs:string" minOccurs="0"/>
+		<xs:element name="time" type="xs:string"/>
+	</xs:sequence>
+	<xs:attribute name="status" type="xs:string"/> <!-- published, accepted, or submitted -->
 </xs:complexType>
 
 </xs:schema>
